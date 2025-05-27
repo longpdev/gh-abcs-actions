@@ -30,7 +30,7 @@ jobs:
         id: action-usage-report
         with:
           token: ${{steps.get_workflow_token.outputs.token}} #${{ secrets.ORG_ADMIN_PAT_TOKEN }}
-          owner: githubabcs
+          owner: githubdevopsabcs
 
       - run: |
           echo "${{ steps.action-usage-report.outputs.csv_result }}"
