@@ -9,7 +9,7 @@ jobs:
     name: A job1 to say hello
     steps:
       - id: hello-world
-        uses: githubdevopsabcs/hello-world-composite-action@main
+        uses: githubabcs/hello-world-composite-action@main
         with:
           who-to-greet: 'Hello from GH ABCs'
       - run: echo random-number ${{ steps.hello-world.outputs.random-number }}
