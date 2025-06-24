@@ -2,6 +2,8 @@
 
 name: 000. CI
 
+run-name: ${{ github.actor}} ran this CI pipeline
+
 # Controls when the workflow will run
 on:
   workflow_dispatch:
